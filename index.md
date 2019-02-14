@@ -47,6 +47,6 @@ permalink: /
 
 ## <i class="fas fa-mail-bulk"></i> Contact
 
-- **Website**: [duonggiaoky.github.io](duonggiaoky.github.io)
+- **Website**: [duonggiaoky.github.io](https://duonggiaoky.github.io)
 - **Office**: Bureau A401, LAGA, University Paris 13
 - **Email**: [{{site.author.email}}](mailto:{{site.author.email}})
