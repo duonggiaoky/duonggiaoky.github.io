@@ -8,7 +8,7 @@ permalink: /
   <div class="info">
     <h1>{{ site.author.name }}</h1>
     <p>
-      Hello everyone, I'm Ky, a Vietnamese guy who loves eating very much. I have just married, I love my wife so much (please let her know about it). I'm very fat and I rarely smile or laugh when I take a photo. I passionate with Maths and the way it works. I am working on a blow-up problem, my supervisor is Mr. Hatem Zaag. Nice to meet you all.
+   My name is Giao Ky DUONG.  I am  working on   singularity formation in finite time for  nonlinear   evolution equations. More precisely, I study   blow-up and touch-down problems.  My supervisor of PhD is Prof. Hatem Zaag, Paris 13 University. 
     </p>
   </div>
   <div class="captioned-img">
