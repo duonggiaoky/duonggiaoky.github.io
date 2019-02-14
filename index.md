@@ -23,7 +23,7 @@ permalink: /
 {% endfor %}
 
 {% for item in site.data.research limit: 5 %}
-  - <strong>{{ item.author }}</strong>. "{{ item.article }}". *{{ item.editor }}*. {{ item.more }} <br />
+  - <strong>{{ item.author }}</strong>. "{{ item.article }}". *{{ item.editor }}*. {{ item.more }}. {% if item.pdf %}<a href="files/pdf/{{ item.pdf }}" target="_blank">pdf</a>.{% endif %} <br />
 {% endfor %}
 {% if looplenght > 5 %}
   - [_See more_...](/research)
@@ -38,7 +38,7 @@ permalink: /
 {% endfor %}
 
 {% for item in site.data.teaching limit: 5 %}
-  - <strong>{{ item.course }}</strong>. _{{ item.place }}_. {{ item.time }}. {{ item.more }} <br />
+  - <strong>{{ item.course }}</strong>. _{{ item.place }}_. {{ item.time }}. {{ item.more }}. {% if item.pdf %}<a href="files/pdf/{{ item.pdf }}" target="_blank">pdf</a>.{% endif %} <br />
 {% endfor %}
 {% if looplenght > 5 %}
   - [_See more_...](/research)

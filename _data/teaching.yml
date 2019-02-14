@@ -1,6 +1,7 @@
 - course: "Linear Algebra"
   place: "University Paris 13"
   time: "Sprint 2018"
+  pdf: "ex.pdf"
   more: "Some additional information"
 - course: "Propability and Statistics"
   place: "University Paris 13"
@@ -9,4 +10,5 @@
 - course: "Analysis"
   place: "University Paris 13"
   time: "Sprint 2016"
+  pdf: "ex.pdf"
   more: "Some additional information"
