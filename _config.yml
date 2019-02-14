@@ -5,7 +5,7 @@ sourcecode:
 permalink: blog/:title
 exclude: ["Makefile", "README.md"]
 
-url: "localhost:4000"     # the base hostname & protocol for your site
+url: "https://duonggiaoky.github.io"     # the base hostname & protocol for your site
 baseurl:                    # the subpath of your site, e.g. /blog
 
 author:
