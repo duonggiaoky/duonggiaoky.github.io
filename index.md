@@ -8,7 +8,7 @@ permalink: /
   <div class="info">
     <h1>{{ site.author.name }}</h1>
     <p>
-   My name is Giao Ky DUONG.  I am  working on   singularity formation in finite time for  nonlinear   evolution equations. More precisely, I study   blow-up and touch-down problems.  My supervisor of PhD is Prof. Hatem Zaag, Paris 13 University. 
+   My name is Giao Ky DUONG.  I am  working on   singularity formation in finite time for  nonlinear   evolution equations. More precisely, I study   blow-up and touch-down problems.  I am also interested in Kinetic theory, math physics. My PhD supervisor  is Prof. Hatem Zaag, Paris 13 University. 
     </p>
   </div>
   <div class="captioned-img">
