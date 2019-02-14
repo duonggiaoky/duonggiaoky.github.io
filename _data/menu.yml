@@ -1,0 +1,22 @@
+- title: "Research"
+  href: "/research"
+  icon: "fas fa-university"
+
+- title: "CV"
+  href: "/files/ky_duong_cv.pdf"
+  icon: "far fa-file-pdf"
+
+- title: "Teaching"
+  href: "/teaching"
+  icon: "fas fa-chalkboard-teacher"
+
+# - title: "Submenu"
+#   subcategories:
+#     - subtitle: "Item 1"
+#       subhref: "/misc/item-1/"
+#     - subtitle: "Item 2"
+#       subhref: "/misc/item-2/"
+
+- title: "Blog"
+  href: "/blog"
+  icon: "far fa-newspaper"
