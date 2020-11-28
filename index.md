@@ -8,7 +8,7 @@ permalink: /
   <div class="info">
     <h1>{{ site.author.name }}</h1>
     <p>
-   My name is Giao Ky DUONG.  I am  working on   singularity formation in finite time for  nonlinear   evolution equations. More precisely, I study   blow-up and touch-down problems.  I am also interested in Kinetic theory, math physics. My PhD supervisor  is Prof. Hatem Zaag, Paris 13 University. 
+  My research mainly concentrates  on  Partial Differential Equations. I am interested in  the finite time singulairty formations for Differential partial equations. In particular, I am focusing on the finite blowup and touching down analysis for parabolic PDEs. In addition to that, I am also interested in fluid mechanics  such  as SQG equation that remains open if a $C^{1,\alpha}$ solution can developpe singularity in finite time.  Now, I am a postdoctoral associate at New York University in Abu Dhabi, supevisor is Tej Eddine GHOUL.
     </p>
   </div>
   <div class="captioned-img">
@@ -48,5 +48,5 @@ permalink: /
 ## <i class="fas fa-mail-bulk"></i> Contact
 
 - **Website**: [duonggiaoky.github.io](https://duonggiaoky.github.io)
-- **Office**: Bureau A401, LAGA, University Paris 13
+- **Office**: Office 1100A,  Bulding A2,  Department of mathematics, NYU inn Abu Dhabi 
 - **Email**: [{{site.author.email}}](mailto:{{site.author.email}})
