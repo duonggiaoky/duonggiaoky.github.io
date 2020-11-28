@@ -8,7 +8,7 @@ permalink: /
   <div class="info">
     <h1>{{ site.author.name }}</h1>
     <p>
-  My research mainly concentrates  on  Partial Differential Equations. I am interested in  the finite time singulairty formations for Differential partial equations. In particular, I am focusing on the finite blowup and touching down analysis for parabolic PDEs. In addition to that, I am also interested in fluid mechanics  such  as SQG equation that remains open if a $C^{1,\alpha}$ solution can developpe singularity in finite time.  Now, I am a postdoctoral associate at New York University in Abu Dhabi, supevisor is Tej Eddine GHOUL.
+  My research mainly concentrates  on  Partial Differential Equations. I am interested in  the finite time singulairty formations for Differential partial equations. In particular, I am focusing on the finite blowup and touching down analysis for parabolic PDEs. In addition to that, I am also interested in fluid mechanics  such  as SQG equation that remains open if a $C^{1,\alpha}$ solution may  develop singularities in fnite time.  Now, I am a postdoctoral associate at New York University in Abu Dhabi, supevisor is Tej Eddine GHOUL.
     </p>
   </div>
   <div class="captioned-img">
@@ -48,5 +48,5 @@ permalink: /
 ## <i class="fas fa-mail-bulk"></i> Contact
 
 - **Website**: [duonggiaoky.github.io](https://duonggiaoky.github.io)
-- **Office**: Office 1100A,  Bulding A2,  Department of mathematics, NYU inn Abu Dhabi 
+- **Office**: Office 1100A,  Bulding A2,  Department of mathematics, NYU in Abu Dhabi 
 - **Email**: [{{site.author.email}}](mailto:{{site.author.email}})
