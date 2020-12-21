@@ -8,7 +8,7 @@ permalink: /
   <div class="info">
     <h1>{{ site.author.name }}</h1>
     <p>
-  My research mainly concentrates  on  Partial Differential Equations. I am interested in  the finite time singulairty formations for Differential partial equations. In particular, I am focusing on the finite blowup and touching down analysis for parabolic PDEs. In addition to that, I am also interested in fluid mechanics  such  as SQG equation that remains open if a $C^{1,\alpha}$ solution may  develop singularities in fnite time.  Now, I am a postdoctoral associate at New York University in Abu Dhabi, supevisor is Tej Eddine GHOUL.
+  My research mainly concentrates  on the analysis of   Partial Differential Equations (PDEs). I received in 2019  my  Ph.D  from Sorbonne Paris Nord,  under the supervison of Hatem Zaag.  The thesis  purely contributed on  the construction of   finite time singularity formations to PDEs which are non sysmetric or non variational. In particular, I am focusing on the two phenomena:   finite time  blowup and touch down. Now, I am a postdoctoral associate at New York University at Abu Dhabi under the supervison of  Tej-Eddine GHOUL  on the  Type II blowup  and  construction  smooth    solutions  to  SQG equation which may develope singularity in finite time.     Such  phenomenon  remains open until now.  
     </p>
   </div>
   <div class="captioned-img">
