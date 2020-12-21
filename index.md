@@ -8,7 +8,8 @@ permalink: /
   <div class="info">
     <h1>{{ site.author.name }}</h1>
     <p>
-  My research mainly concentrates  on the analysis of   Partial Differential Equations (PDEs). I received in 2019  my  Ph.D  from Sorbonne Paris Nord University,  under the supervision of  Hatem ZAAG.  The thesis  purely contributed on  the construction of   finite time singularity formations to PDEs which are non symmetric or non variational. In particular, I am focusing on the two phenomena:   finite time  blowup and touch down. Now, I am a postdoctoral associate at New York University in Abu Dhabi, under the supervision of  Tej-Eddine GHOUL. The study focus   on the  Type II blowup   and  construction  smooth    solutions  to  SQG equation which may develop  singularity in finite time.     Such  phenomenon  remains open until now.  
+   
+  My research mainly concentrates  on the analysis of   Partial Differential Equations (PDEs). I received in 2019  my  Ph.D  from Sorbonne Paris Nord University,  under the supervision of  Hatem ZAAG.  The thesis  purely contributed on  the construction of   finite time singularity formations to PDEs which are non symmetric or non variational. In particular, I am focusing on the two phenomena:   finite time  blowup and touch down. Now, I am a postdoctoral associate at New York University in Abu Dhabi, under the supervision of  Tej-Eddine GHOUL. The study focus   on the  Type II blowup   and  construction  smooth    solutions  to  SQG equation which may develop  singularity in finite time.     Such  phenomenon  remains open until now.  [duonggiaoky.github.io](http://google.com)
     </p>
   </div>
   <div class="captioned-img">
@@ -48,5 +49,6 @@ permalink: /
 ## <i class="fas fa-mail-bulk"></i> Contact
 
 - **Website**: [duonggiaoky.github.io](https://duonggiaoky.github.io)
+
 - **Office**: Office 1100A,  Bulding A2,  Department of mathematics, NYU in Abu Dhabi 
 - **Email**: [{{site.author.email}}](mailto:{{site.author.email}})
