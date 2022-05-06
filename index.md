@@ -9,7 +9,7 @@ permalink: /
     <h1>{{ site.author.name }}</h1>
     <p>
    
-  My research mainly concentrates  on the analysis of   Partial Differential Equations (PDEs). I received in 2019  my  Ph.D  from Sorbonne Paris Nord University,  under the supervision of  Hatem ZAAG.  The thesis  purely contributed on  the construction of   finite time singularity formations to PDEs which are non symmetric or non variational. In particular, I am focusing on the two phenomena:   finite time  blowup and touch down. Now, I am a postdoctoral associate at New York University in Abu Dhabi, under the supervision of  Tej-Eddine GHOUL. The study focus   on the  Type II blowup   and  construction  smooth    solutions  to  SQG equation which may develop  singularity in finite time.     Such  phenomenon  remains open until now. 
+ My name is  Duong Giao Ky, I graduated in Mathematics Teacher Education from An Giang University-Vietnam National University HCMC from 2009-to 2013. He obtained my Master's degree in 2016 at Sorbonne Paris Nord University (supervisor Pr. Hatem Zaag) through the Master of Mathematics program in collaboration with international universities at the Vietnam Institute of Mathematics. Later, I finished my PhD in 2019 at Sorbonne Paris Nord University under the  supervision of  Pr. Hatem Zaag to study Singularity formation in finite time for nonsymmetric or nonvariational partial differential equations. Then, I received a two years postdoc position  at New York Abu Dhabi University under Dr. Tej-Eddine Ghoul. Now, he is a lecturer at  An Giang University. The main interests focus on blowup phenomena for PDEs  and fluid dynamics. 
     </p>
   </div>
   <div class="captioned-img">
