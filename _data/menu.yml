@@ -3,7 +3,7 @@
   icon: "fas fa-university"
 
 - title: "CV"
-  href: "files/pdf/CV-Giao-Ky-Duong.pdf"
+  href: "/files/pdf/CV-Giao-Ky-Duong.pdf"
   icon: "far fa-file-pdf"
 
 - title: "Teaching"
