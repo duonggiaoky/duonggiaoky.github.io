@@ -6,14 +6,16 @@ permalink: /
 
 <div class="about">
   <div class="info">
-    <h1>{{Duong Giao Ky  }}</h1>
+    <h1>{{Dương Giao Kỵ   }}</h1>
     <p>
    
-  I graduated in Mathematics Teacher Education from An Giang University-Vietnam National University HCMC from 2009-to 2013. I obtained my Master's degree in 2016 at Sorbonne Paris Nord University (supervisor Pr. Hatem Zaag) through the Master of Mathematics program in collaboration with international universities at the Vietnam Institute of Mathematics. Later, I finished my PhD in 2019 at Sorbonne Paris Nord University under the  supervision of  Pr. Hatem Zaag to study Singularity formation in finite time for nonsymmetric or nonvariational partial differential equations. Then, I received a two years postdoc position  at New York Abu Dhabi University under Dr. Tej-Eddine Ghoul. Now, he is a lecturer at  An Giang University. The main interests focus on blowup phenomena for PDEs  and fluid dynamics. 
+  I studied my Bachelor at  An Giang Universityfrom 2009 to 2013 in Maths Pedagogy, earned my Master's degree at Sorbonne Paris Nord University in 2016. I completed my PhD in 2019 at Sorbonne Paris Nord University under the supervision of Pr. Hatem Zaag. I did a two-year postdoctoral position at New York Abu Dhabi University under Dr. Tej-Eddine Ghoul. Currently, I am working as a postdoc at LMU Munich under the supervision of Prof. Phan Thanh Nam.
+
+  My interests: Analysis of PDEs, many-body interactions. 
     </p>
   </div>
   <div class="captioned-img">
-    <img src="images/avatar.jpg" alt="My avatar" />
+    <img src="images/Photo-DGK.jpg" alt="My avatar" />
   </div>
 </div>
 
@@ -50,5 +52,5 @@ permalink: /
 
 - **Website**: [duonggiaoky.github.io](https://duonggiaoky.github.io)
 
-- **Office**: Office 1100A,  Bulding A2,  Department of mathematics, NYU in Abu Dhabi 
-- **Email**: [{{site.author.email}}](mailto:{{site.author.email}})
+- **Office**: Office 321,  LMU Munich: Department of Mathematics 
+- **Email**: [duong@math.lmu.de](mailto:duong@math.lmu.de)
