@@ -1,6 +1,6 @@
 ---
 layout: default
-title: G. K. Duong
+title: Dương Giao Kỵ 
 permalink: /
 ---
 
