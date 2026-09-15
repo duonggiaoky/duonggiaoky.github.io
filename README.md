@@ -1,3 +1,26 @@
+# Giao Ky DUONG — academic website
+
+Jekyll website for <https://duonggiaoky.github.io>, matching the supplied [academic demo](https://ky-duong-academic-demo.kydeptrai-ag.chatgpt.site/).
+
+## Development
+
+Use Ruby 3.3 or later. Install the dependencies with `bundle install`, then run `bundle exec jekyll serve --destination ../site` or `bundle exec jekyll build --strict_front_matter --destination ../site`. The separate destination preserves the historical `_site/index.html` snapshot already tracked by this repository.
+GitHub Pages builds the site from the repository's `master` branch. The site needs no frontend package manager.
+
+## Content
+
+- `_layouts/academic.html` and `_includes/academic-*.html`: shared page structure and navigation.
+- `assets/site.css`, `assets/site.js`: demo styling, accessible mobile navigation, and optional saved color theme.
+- `_data/selected_publications.yml`: the demo's selected publications. Publication statuses are copied from the demo, not automatically refreshed.
+- `_data/research.yml` and `_data/teaching.yml`: preserved original academic records, shown on the Research and Teaching pages. The old Yang–Mills preprint entry is superseded in the displayed list by the demo's published entry; its source record remains intact.
+- `files/pdf/CV-Giao-Ky-Duong.pdf`: the existing CV, now linked from the CV page. Both original copies are preserved unchanged.
+- `notes.html`, `dan-ca-tai-tu.html`, `blog.md`: personal sections. Posts marked `legacy_sample: true` retain their original content and URLs but are excluded from the public Blog listing.
+- `*-redirect.html`: compatibility for extensionless page URLs.
+
+The portrait, river photos, and stylesheet were copied from the user-provided demo. All pre-existing PDFs, images, data files, and example posts are retained. Main content and navigation remain available without JavaScript. No deployment service credentials or demo hosting scripts are included.
+
+## Original theme attribution
+
 # Much-Worse jekyll theme
 
 This theme is avaiable under [MIT License](https://opensource.org/licenses/MIT).

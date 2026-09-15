@@ -1,9 +1,9 @@
-title: DUONG G. Ky
-description: My personal website
+title: Giao Ky DUONG
+description: Academic homepage of Giao Ky DUONG, working on nonlinear PDEs.
 sourcecode:
 
 permalink: blog/:title
-exclude: ["Makefile", "README.md"]
+exclude: ["Makefile", "README.md", "Gemfile", "Gemfile.lock", "vendor"]
 
 url: "https://duonggiaoky.github.io"     # the base hostname & protocol for your site
 baseurl:                    # the subpath of your site, e.g. /blog

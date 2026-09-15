@@ -1,0 +1,5 @@
+<nav class="quick-links personal-links" aria-label="Notes, music, and blog">
+  <a href="{{ '/notes.html' | relative_url }}"{% if page.section == 'notes' %} aria-current="page"{% endif %}><strong>Notes</strong></a>
+  <a href="{{ '/dan-ca-tai-tu.html' | relative_url }}" lang="vi"{% if page.section == 'music' %} aria-current="page"{% endif %}><strong>Đàn ca tài tử</strong></a>
+  <a href="{{ '/blog.html' | relative_url }}"{% if page.section == 'blog' %} aria-current="page"{% endif %}><strong>Blog</strong></a>
+</nav>

@@ -1,56 +1,22 @@
 ---
-layout: default
-title: Dương Giao Kỵ 
+layout: academic
+title: Mathematics & PDEs
 permalink: /
+personal: true
+body_class: concept-c selected-c
+description: Academic homepage of Giao Ky DUONG, working on nonlinear PDEs.
 ---
-
-<div class="about">
-  <div class="info">
-    <h1>{{Dương Giao Kỵ   }}</h1>
-    <p>
-   
-  I studied my Bachelor at  An Giang Universityfrom 2009 to 2013 in Maths Pedagogy, earned my Master's degree at Sorbonne Paris Nord University in 2016. I completed my PhD in 2019 at Sorbonne Paris Nord University under the supervision of Pr. Hatem Zaag. I did a two-year postdoctoral position at New York Abu Dhabi University under Dr. Tej-Eddine Ghoul. Currently, I am working as a postdoc at LMU Munich under the supervision of Prof. Phan Thanh Nam.
-
-  My interests: Analysis of PDEs, many-body interactions. 
-    </p>
-  </div>
-  <div class="captioned-img">
-    <img src="images/Photo-DGK.jpg" alt="My avatar" />
-  </div>
-</div>
-
-## <i class="fas fa-university"></i> Research
-
-{% for item in site.data.research %}
-  {% assign looplenght = forloop.length %}
-{% endfor %}
-
-{% for item in site.data.research limit: 5 %}
-  - <strong>{{ item.author }}</strong>. "{{ item.article }}". *{{ item.editor }}*. {{ item.more }}. {% if item.pdf %}<a href="files/pdf/{{ item.pdf }}" target="_blank">pdf</a>.{% endif %} <br />
-{% endfor %}
-{% if looplenght > 5 %}
-  - [_See more_...](/research)
-{% endif %}
-
-
-## <i class="fas fa-chalkboard-teacher"></i> Teaching
-
-
-{% for item in site.data.teaching %}
-  {% assign looplenght = forloop.length %}
-{% endfor %}
-
-{% for item in site.data.teaching limit: 5 %}
-  - <strong>{{ item.course }}</strong>. _{{ item.place }}_. {{ item.time }}. {{ item.more }}. {% if item.pdf %}<a href="files/pdf/{{ item.pdf }}" target="_blank">pdf</a>.{% endif %} <br />
-{% endfor %}
-{% if looplenght > 5 %}
-  - [_See more_...](/research)
-{% endif %}
-
-
-## <i class="fas fa-mail-bulk"></i> Contact
-
-- **Website**: [duonggiaoky.github.io](https://duonggiaoky.github.io)
-
-- **Office**: Office 321,  LMU Munich: Department of Mathematics 
-- **Email**: [duong@math.lmu.de](mailto:duong@math.lmu.de)
+<section class="concept-hero">
+  <div class="panorama" aria-hidden="true"></div>
+  <div class="concept-layout shell"><div class="concept-copy">
+    <div class="identity-row">
+      <div>
+        <p class="eyebrow">Mathematics · Analysis of PDEs</p>
+        <h1>Giao Ky <span class="outline">DUONG</span></h1>
+        <p class="role">Singularity formation in nonlinear PDEs, fluid mechanics, and mathematical physics.</p>
+      </div>
+      <img class="concept-portrait" src="{{ '/assets/ky-duong.jpg' | relative_url }}" alt="Portrait of Giao Ky DUONG" width="180" height="180" fetchpriority="high">
+    </div>
+    <div class="hero-actions"><a class="button primary" href="{{ '/research.html' | relative_url }}">Research</a><a class="button secondary" href="{{ '/cv.html' | relative_url }}">CV</a></div>
+  </div></div>
+</section>

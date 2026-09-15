@@ -1,0 +1,12 @@
+<header class="site-header">
+  <nav class="nav shell" aria-label="Main navigation">
+    <a class="brand" href="{{ '/' | relative_url }}"><span class="brand-mark">GKD</span><span>GIAO KY DUONG</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-navigation">Menu</button>
+    <div class="nav-links" id="main-navigation">
+      {% for item in site.data.menu %}
+        <a href="{{ item.href | relative_url }}"{% if page.section == item.section %} aria-current="page"{% endif %}>{{ item.title }}</a>
+      {% endfor %}
+      {% unless page.personal %}<button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch color theme" aria-pressed="false"><span aria-hidden="true">☼</span></button>{% endunless %}
+    </div>
+  </nav>
+</header>

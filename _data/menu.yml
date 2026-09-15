@@ -1,31 +1,9 @@
-- title: "Research"
-  href: "/research"
-  icon: "fas fa-university"
-
-- title: "CV"
-  href: "/files/pdf/CV-Giao-Ky-Duong.pdf"
-  icon: "far fa-file-pdf"
-
-- title: "Teaching"
-  href: "/teaching"
-  icon: "fas fa-chalkboard-teacher"
-
-# - title: "Submenu"
-#   subcategories:
-#     - subtitle: "Item 1"
-#       subhref: "/misc/item-1/"
-#     - subtitle: "Item 2"
-#       subhref: "/misc/item-2/"
-
-
-
-- title: "Lecture Notes"
-  href: "/blog"
-  icon: "far fa-clone"
-  
-  
-  
-  
-- title: "Blog"
-  href: "/blog"
-  icon: "far fa-newspaper"
+- title: Research
+  href: /research.html
+  section: research
+- title: Teaching
+  href: /teaching.html
+  section: teaching
+- title: CV
+  href: /cv.html
+  section: cv

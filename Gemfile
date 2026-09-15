@@ -1,2 +1,5 @@
 source 'https://rubygems.org'
-gem 'github-pages', group: :jekyll_plugins
+
+# GitHub Pages uses Jekyll 3.10. Keep the local build small and reproducible.
+gem 'jekyll', '~> 3.10.0'
+gem 'kramdown-parser-gfm', '~> 1.1'

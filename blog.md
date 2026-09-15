@@ -1,20 +1,17 @@
 ---
-layout: page
+layout: academic
 title: Blog
-permalink: /blog
-icon: "far fa-newspaper"
+permalink: /blog.html
+section: blog
+personal: true
+body_class: personal-page
 ---
-
-<ul class="listing">
-{% for post in site.posts %}
-  {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
-  {% if year != y %}
-    {% assign year = y %}
-    <li class="listing-seperator">{{ y }}</li>
-  {% endif %}
-  <li class="listing-item">
-    <time datetime="{{ post.date | date:'%Y-%m-%d' }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-    <a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">{{ post.title }}</a>
-  </li>
-{% endfor %}
-</ul>
+{% include page-hero.html %}
+<section class="content"><div class="shell">
+  {% assign posts = site.posts | where_exp: 'post', 'post.legacy_sample != true' %}
+  {% if posts.size > 0 %}
+  <ul class="archive-list">
+    {% for post in posts %}<li><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%B %-d, %Y' }}</time><br><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></li>{% endfor %}
+  </ul>
+  {% else %}<p class="notice">No posts published yet.</p>{% endif %}
+</div></section>

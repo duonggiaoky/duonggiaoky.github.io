@@ -1,4 +1,5 @@
 ---
+legacy_sample: true
 layout: post
 title: "Chewybaca is talking in his sleep"
 description: "This is a description for this awesome post"
