@@ -125,3 +125,38 @@ html[data-theme="light"] .button.primary{color:#fff}
   .selected-c .concept-portrait{width:70px;height:70px}
   .selected-c .concept-copy h1{font-size:2.35rem}
 }
+
+/* Join the original river photos along their low shorelines. */
+.selected-c .panorama {
+  background: #91a8b8;
+  isolation: isolate;
+}
+.selected-c .panorama::before,
+.selected-c .panorama::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 61%;
+  border: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 55%;
+}
+.selected-c .panorama::before {
+  left: 0;
+  background-image: url('mekong-ferry.jpg');
+}
+.selected-c .panorama::after {
+  left: 39%;
+  right: 0;
+  background-image: url('mekong-boats.jpg');
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 28%);
+  mask-image: linear-gradient(to right, transparent, #000 28%);
+}
+@media (max-width: 760px) {
+  .selected-c .panorama {
+    height: auto;
+    aspect-ratio: 2.18;
+  }
+}
