@@ -150,7 +150,13 @@ html[data-theme="light"] .button.primary{color:#fff}
 .selected-c .panorama::after {
   left: 39%;
   right: 0;
-  background-image: url('mekong-boats.jpg');
+  /* Match the cooler, brighter water to the ferry photo; leave the sky clear. */
+  background-image:
+    linear-gradient(to bottom,
+      rgba(45, 15, 20, 0) 49%,
+      rgba(45, 15, 20, .18) 66%,
+      rgba(45, 15, 20, .18) 100%),
+    url('mekong-boats.jpg');
   -webkit-mask-image: linear-gradient(to right, transparent, #000 28%);
   mask-image: linear-gradient(to right, transparent, #000 28%);
 }
