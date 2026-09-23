@@ -40,34 +40,36 @@ footer{padding:30px 0 40px;color:var(--muted);font-size:.82rem}footer .shell{dis
 .selected-c .quick-links{margin-top:0}
 @media(max-width:760px){.selected-c .concept-hero{min-height:820px}.selected-c .panorama{height:720px;margin:14px 12px 0}.selected-c .concept-layout{inset:105px 12px auto}.selected-c .concept-copy{width:100%;padding:28px;border-radius:14px}.selected-c .identity-row{grid-template-columns:1fr 112px;gap:16px}.selected-c .concept-portrait{width:108px;height:108px;border-width:4px}.selected-c .concept-copy h1{font-size:clamp(3rem,15vw,4.5rem)}.selected-c .role{font-size:1.02rem}.selected-c .hero-actions{margin-top:24px}}
 
-/* Transparent glass panel: keeps the Mekong landscape visible */
+/* Opaque hero panel keeps text readable without blur or transparency. */
 .selected-c .concept-copy{
-  background:linear-gradient(105deg,rgba(8,32,41,.58),rgba(8,32,41,.38));
-  border:1px solid rgba(255,255,255,.24);
+  background:#15363e;
+  border:1px solid #3d5960;
   border-left:0;
   box-shadow:0 22px 58px rgba(8,28,35,.2);
-  backdrop-filter:blur(4px) saturate(115%);
-  -webkit-backdrop-filter:blur(4px) saturate(115%);
+  backdrop-filter:none;
+  -webkit-backdrop-filter:none;
 }
 .selected-c .concept-copy .eyebrow{color:#bfe9e7}
-.selected-c .concept-copy h1{color:#fff;text-shadow:0 2px 18px rgba(0,0,0,.18)}
-.selected-c .concept-copy .outline{-webkit-text-stroke-color:rgba(255,255,255,.82);color:rgba(255,255,255,.08)}
-.selected-c .concept-copy .role{color:rgba(255,255,255,.94);text-shadow:0 1px 12px rgba(0,0,0,.22)}
-.selected-c .button.secondary{color:#fff;border-color:rgba(255,255,255,.58);background:rgba(255,255,255,.12)}
-.selected-c .button.secondary:hover{background:rgba(255,255,255,.22)}
-@media(max-width:760px){.selected-c .panorama{background-size:100% 55%;background-position:center top}.selected-c .panorama:after{inset:52% 0 0;background-position:center 48%;border-left:0;border-top:1px solid rgba(255,255,255,.45)}.selected-c .concept-copy{background:linear-gradient(115deg,rgba(8,32,41,.66),rgba(8,32,41,.44));border-left:1px solid rgba(255,255,255,.24)}}
+.selected-c .concept-copy h1{color:#fff;text-shadow:none}
+.selected-c .concept-copy .outline{-webkit-text-stroke:0;color:#fff}
+.selected-c .concept-copy .role{color:#f1f7f6;text-shadow:none}
+.selected-c .button.primary{border-color:#bfe9e7}
+.selected-c .button.secondary{color:#fff;border-color:#bfe9e7;background:#294c55}
+.selected-c .button.secondary:hover{background:#355d67}
+.selected-c .concept-copy .button:focus-visible{outline-color:#bfe9e7}
+@media(max-width:760px){.selected-c .panorama{background-size:100% 55%;background-position:center top}.selected-c .panorama:after{inset:52% 0 0;background-position:center 48%;border-left:0;border-top:1px solid rgba(255,255,255,.45)}}
 
 /* Final C composition: information first, unobstructed river gallery below */
 .selected-c .concept-hero{min-height:auto;display:flex;flex-direction:column;padding:76px 0 28px}
 .selected-c .concept-layout{position:relative;inset:auto;order:1;width:min(1160px,calc(100% - 64px));margin:28px auto 0}
-.selected-c .concept-copy{width:100%;border-left:1px solid rgba(255,255,255,.24);border-radius:16px;background:linear-gradient(105deg,rgba(8,32,41,.94),rgba(16,64,73,.86))}
+.selected-c .concept-copy{width:100%;border-left:1px solid #3d5960;border-radius:16px}
 .selected-c .panorama{order:2;width:auto;height:470px;margin:22px 32px 0}
 .selected-c .quick-links{grid-template-columns:repeat(3,minmax(0,1fr))}
 
 @media(max-width:760px){
   .selected-c .concept-hero{min-height:auto;padding:66px 0 18px}
   .selected-c .concept-layout{width:calc(100% - 24px);margin-top:14px}
-  .selected-c .concept-copy{padding:24px 20px;border-radius:14px;background:linear-gradient(115deg,rgba(8,32,41,.96),rgba(16,64,73,.9))}
+  .selected-c .concept-copy{padding:24px 20px;border-radius:14px}
   .selected-c .identity-row{grid-template-columns:minmax(0,1fr) 98px;gap:13px}
   .selected-c .concept-portrait{width:94px;height:94px}
   .selected-c .concept-copy h1{font-size:clamp(2.65rem,13vw,4rem)}
