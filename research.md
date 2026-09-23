@@ -28,6 +28,7 @@ lede: Research directions and selected publications in nonlinear PDEs and mathem
         <li><strong>{{ item.author | escape }}</strong>. {{ item.article | strip | escape }}. <em>{{ item.editor | escape }}</em>.
           {% assign reference = item.more | remove: 'Doi:' | strip %}
           {% if reference contains 'http' %}<a href="{{ reference | escape }}" target="_blank" rel="noopener noreferrer">Publication link ↗</a>{% elsif reference != '' %}<span class="pub-meta">{{ reference | escape }}</span>{% endif %}
+          {% if item.arxiv %}<a href="https://arxiv.org/abs/{{ item.arxiv | escape }}" target="_blank" rel="noopener noreferrer">arXiv:{{ item.arxiv | escape }} ↗</a>{% endif %}
           {% if item.pdf %}<a href="{{ '/files/pdf/' | append: item.pdf | relative_url }}">PDF</a>{% endif %}
         </li>
         {% endunless %}
