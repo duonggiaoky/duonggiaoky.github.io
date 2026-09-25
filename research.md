@@ -18,7 +18,15 @@ lede: Research directions and selected publications in nonlinear PDEs and mathem
     <article class="detail-block" id="quantum"><h2>Mathematical physics</h2><p>Functional and spectral inequalities for Hardy–Schrödinger operators and large quantum systems, including Cwikel–Lieb–Rozenblum and Lieb–Thirring type estimates.</p><div class="tags"><span class="tag">Lieb–Thirring</span><span class="tag">Hardy operators</span><span class="tag">Many-body theory</span></div></article>
     <article class="detail-block" id="publications"><h2>Selected publications</h2><div class="publication-list">
       {% for item in site.data.selected_publications %}
+      {% if item.reprint %}
+      <div class="publication">
+        <span class="pub-year">{{ item.year }}</span>
+        <span><span class="pub-title">{{ item.title | escape }}</span><span class="pub-meta">{{ item.authors | escape }} · {{ item.venue | escape }}</span><span class="pub-meta"><a href="{{ item.url | escape }}" target="_blank" rel="noopener noreferrer">Publication link ↗</a> · <a href="{{ item.reprint | escape }}" target="_blank" rel="noopener noreferrer">reprint</a></span></span>
+        <span class="pub-arrow" aria-hidden="true">↗</span>
+      </div>
+      {% else %}
       <a class="publication" href="{{ item.url }}" target="_blank" rel="noopener noreferrer"><span class="pub-year">{{ item.year }}</span><span><span class="pub-title">{{ item.title | escape }}</span><span class="pub-meta">{{ item.authors | escape }} · {{ item.venue | escape }}</span></span><span class="pub-arrow" aria-hidden="true">↗</span></a>
+      {% endif %}
       {% endfor %}
     </div></article>
     <article class="detail-block" id="earlier-publications"><h2>Earlier publications</h2>
